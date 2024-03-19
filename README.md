@@ -14,16 +14,16 @@ Cargo
 get_link https://www.xxx.xx.com/
 return list of <a> tag links.
 
-##options
+## options
 
---filter / -f
+### --filter / -f
 you can use filter option.
 for example
 get_link https://xxx.xx.com --filter article
 
 return list of links contains "artcle" string
 
---substring / -s
+### --substring / -s
 remove characters from url
 ex:
 get_link https://xxx.com -s 2
